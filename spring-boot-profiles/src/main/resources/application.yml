@@ -1,0 +1,26 @@
+server:
+  port: 8008
+
+management:
+  port: 8879
+  context-path: /abc
+  security: 
+    enabled: false  
+---
+logging:
+  file: my.log
+  level:
+    root: warn
+    org:
+      springframework:
+        web: debug       
+---
+spring:
+  profiles:
+    active: hello 
+---
+spring:
+  profiles: hello
+---
+spring:
+  profiles: goodbye

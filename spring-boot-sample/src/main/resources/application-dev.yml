@@ -1,0 +1,13 @@
+server:
+  port: 8082
+ 
+ 
+my:
+   secret: wang
+   number: xiao
+   bignumber: wang
+   
+           
+ 
+  
+

@@ -1,0 +1,11 @@
+
+#自定义配置
+my: 
+  secret: ${random.value}
+  number: ${random.int}
+  name: www.wangwang.com
+  desc: the domain is ${my.name}
+  
+#端口
+server: 
+  port: 9090
